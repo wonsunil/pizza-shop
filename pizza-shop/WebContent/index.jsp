@@ -18,7 +18,15 @@
 	<section>
 		<%
 			switch(section) {
+				case "insert_sale" : %> <%@ include file="page/insert_sale.jsp" %> <%
+				break;
 				case "total_sale" : %> <%@ include file="page/total_sale.jsp" %> <%
+				break;
+				case "sales_by_shop" : %> <%@ include file="page/sales_by_shop.jsp" %> <%
+				break;
+				case "sales_by_pizza" : %> <%@ include file="page/sales_by_pizza.jsp" %> <%
+				break;
+				default: %> <%@ include file="static/index.jsp" %> <%
 				break;
 			};
 		%>
