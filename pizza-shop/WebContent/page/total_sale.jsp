@@ -18,7 +18,9 @@
 						  		"TBL_SALELIST_01 SL " +
 						  "WHERE " +
 						  		"SL.PCODE = PIZZA.PCODE AND " +
-						  		"SL.SCODE = SH.SCODE";
+						  		"SL.SCODE = SH.SCODE " +
+						  "ORDER BY " + 
+						  		"SL.SALENO";
 
 	ResultSet total_rs = DB.fetch(total_query);
 %>
