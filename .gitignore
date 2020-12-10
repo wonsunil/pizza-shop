@@ -1,0 +1,16 @@
+/.metadata/
+.metadata/.lock
+pizza-shop/.classpath
+pizza-shop/.project
+pizza-shop/.settings/org.eclipse.jdt.core.prefs
+pizza-shop/.settings/.jsdtscope
+*.xml
+Servers/.project
+*.policy
+*.prefs
+*.properties
+*.jar
+*.name
+*.component
+*.MF
+*.container
