@@ -14,6 +14,16 @@
 <body>
 	<%@ include file="static/header.jsp" %>
 	<%@ include file="static/nav.jsp" %>
+	
+	<section>
+		<%
+			switch(section) {
+				case "total_sale" : %> <%@ include file="page/total_sale.jsp" %> <%
+				break;
+			};
+		%>
+	</section>
+	
 	<%@ include file="static/footer.jsp" %>
 </body>
 </html>
